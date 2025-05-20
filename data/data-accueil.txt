@@ -1,0 +1,31 @@
+C'est quoi la Green IT ?
+La sobriété numérique ou informatique verte ou informatique durable ou encore eco-IT est un concept relativement nouveau et une nouvelle façon de penser. 
+      
+Objectif principal de la Green IT :    
+
+Minimiser la consommation d'énergie
+Réduire les émissions de gaz à effet de serre
+
+
+Que représente l'impact du numérique sur l'environnement ?
+
+Empreinte carbone ou le contenu carbone d'une activité humaine est une mesure des émissions de  gaz à effet de serre d'origine anthropique, c'est-à-dire qui peuvent lui être imputées. Elle dépend des facteurs d'émission des intrants liés à cette activité et en particulier des facteurs d'émission associés aux des émissions de CO2.
+
+
+Impact énergétique sur le développement web
+Pourquoi les sites web ont-ils une empreinte carbone ?
+
+Chaque site web a sa propre empreinte carbone, c'est-àdire la quantité d'émissions de gaz à effet de serre générée par le processus de création et de maintenance de ce site web.
+L'empreinte carbone de votre site web correspond à la quantité d'émissions de CO2 qu'il créait au cours de sa durée de vie. 
+Plus l'empreinte carbone de votre site Web est importante, plus la quantité de gaz à effet de serre libérée dans l'atmosphère est élevée.
+
+Que représente l'empreinte carbone d'une page web ?
+
+Naviguer en ligne et visiter des sites internet demande de l'énergie électrique. Cette demande a un impact écologique important.
+En moyenne, une page web consultée entraîne la production de 1,76 grammes de CO2, et 7 grammes pour une requête sur Google.
+La conception et le nombre de visite du site web influencent en grande partie le poids de ses émissions carbone.
+
+©️2024 Maha Naceur.
+Tous droits réservés.
+En savoir plus ?
+

@@ -1,0 +1,45 @@
+Pratiques de codage efficaces pour réduire la consommation d'énergie
+« L'optimisation des performances web est une démarche globale qui englobe de multiples techniques visant à accélérer la vitesse de chargement, réduire la consommation d'énergie et minimiser l'empreinte carbone d'un site web. »
+
+Alléger votre site web
+    Compresser des éléments de contenus (images, icônes et vidéos) avec des outils tel que (suite Adobe , Gimp, ou Inkscape, la suite Affinity);
+    Réparation des liens brisés
+    Réduction du nombre de requêtes HTTP.
+Faciliter le chargement de contenus de votre site
+    C’est le principe même de l’utilisation des caches. Car pourquoi recharger ce que l’on a déjà chargé ailleurs.
+    Les caches limitent les chargements multiples, et allègent donc les requêtes/la consommation énergétique de votre site. 
+Exploiter le Content Delivery Network (CDN) 
+    Permet une meilleure vitesse de chargement des pages de votre site
+    Aide également à anticiper les plantages du site en cas d'affluence de visiteurs.
+Optimisation du code
+    Réduire la taille du code, les fichiers JavaScript, CSS et autres...
+    Nettoyer les plugins en excès.
+Optimisation du Serveur
+    Choisir un hébergement vert
+    Optimiser les paramètres du serveur
+    mettre en œuvre des technologies de serveur modernes comme HTTP/2 ou HTTP/3 qui permettent des transferts de données plus efficaces.
+   
+Pratiques de codage efficaces
+
+Optimisation de l'algorithme : 
+    Pratique : choisir des algorithmes à complexité réduite pour minimiser les opérations inutiles.
+    Exemple : au lieu d'utiliser une recherche linéaire pour trouver un élément dans une liste non triée, triez la liste une fois et utilisez ensuite une recherche binaire.
+Minimisation des opérations CPU : 
+    Pratique : évitez les boucles inutiles qui consomment des cycles CPU. 
+    Exemple : au lieu d'utiliser une boucle pour attendre un événement, il est préférable d’utiliser une fonction d'attente asynchrone.
+Optimisation de la mémoire :
+    Pratique : réduisez l'utilisation de la mémoire en évitant les allocations dynamiques excessives.
+    Exemple : utilisez des tableaux statiques au lieu de listes dynamiques pour stocker des données de taille fixe.
+Gestion de l'énergie du processeur :
+    Pratique : utilisez des mécanismes de mise en veille pour réduire la consommation d'énergie du CPU lorsqu'il est inactif.
+    Exemple : dans une application mobile, configurez des temporisateurs pour mettre en veille le CPU lorsqu'il n'est pas utilisé.
+Optimisation des E/S :
+    Pratique : réduire les E/S disque en mettant en cache les données fréquemment utilisées en mémoire.
+    Exemple : cachez les requêtes de bases de données fréquemment utilisées pour éviter des accès disque coûteux.    
+Utilisation de la mise en cache :
+    Pratique : minimisez les accès à la mémoire principale en tirant parti des caches du processeur.
+    Exemple : utilisez des algorithmes de recherche qui exploitent le principe de la localité pour maximiser l'utilisation du cache.
+    
+Minimisation des requêtes réseau :
+    Pratique : réduisez le nombre de requêtes réseau en regroupant les opérations et en minimisant les transferts de données inutiles.
+    Exemple : utilisez des requêtes batch pour regrouper plusieurs opérations de lecture/écriture de données en une seule requête.

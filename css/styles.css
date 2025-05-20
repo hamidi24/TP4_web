@@ -1,0 +1,413 @@
+
+@font-face {
+    font-family: "Bitstream Vera Serif Bold";
+    src: url("https://mdn.github.io/css-examples/web-fonts/VeraSeBd.ttf");
+  }
+
+/* Étape 2 */
+body {
+    background-color: rgb(251, 251, 249);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: justify;
+}
+
+header, footer {
+    background-image: url("../img/GreenIT_background.jpg");
+    padding: 15px;
+    text-align: center;
+}
+
+header img {
+    border-radius: 8px;
+    height: 20%;
+    width: 40%;
+}
+
+footer p{
+    color: white;
+    font-size: 120%;
+
+}
+footer a{
+    color:white;
+    font-size: 120%;
+}
+
+section {
+    margin: 20px 20% 20px 20%;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+h1, h2, h3{
+    font-family: 'Bitstream Vera Serif Bold';
+}
+section h1 {
+    color: fuchsia;
+    text-align: center;
+    font-size: 250%;
+}
+section ol, section ul{
+    display: inline-block;
+    text-align: left;
+}
+
+section a:hover {
+    color: rgb(108, 243, 67);
+    background-color: rgb(243, 67, 202);
+    border-radius: 8px;
+}
+
+h2 ~ h3 {
+    color: rgb(243, 67, 202);
+}
+
+section h2 {
+    color: #4CAF50;
+}
+
+nav {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    font-size: larger;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: yellowgreen;
+}
+
+nav a:first-child:hover {
+    background-color: aquamarine;
+    color: rgb(213, 51, 78);
+}
+
+nav a:nth-child(2):hover {
+    background-color: rgb(214, 127, 255);
+    color: aqua;
+}
+
+nav a:nth-child(3):hover {
+    background-color: rgb(213, 51, 78);
+    color: yellowgreen;
+}
+
+section a {
+    color: rgb(243, 67, 202);
+    font-style: italic;
+}
+
+/* Étape 3 */
+#citation, #definition {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+#citation {
+    color: rgb(243, 67, 202);
+}
+
+#definition {
+    color : pink;
+}
+
+.postit, .postit-item {
+    border-radius: 8px;
+}
+/* Étape 7 */
+#postit {
+    /* Définition: 
+    - La propriété "display" spécifie le type d'affichage utilisé pour un élément.
+    - La valeur "flex" permet de créer un conteneur flexible qui peut contenir des éléments flexibles.
+    - La valeur "wrap" permet aux éléments flexibles de passer à la ligne suivante lorsque l'espace horizontal est insuffisant.
+    - La valeur "space-between" aligne les éléments flexibles avec un espacement égal entre eux. */
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+.postit-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+
+#postit .postit-item ul {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+#postit .postit-item:hover ul {
+    display: block;
+}
+
+#postit .postit-item ul li {
+    color: green;
+    padding: 12px 16px;
+    display: block;
+}
+
+#postit .postit-item ul li:hover {
+    background-color: #f1f1f1;
+}
+
+#postit .postit-item:nth-child(1) {
+    background-color: #b4a0a0;
+}
+
+#postit .postit-item:nth-child(2) {
+    background-color: #86bd86;
+}
+
+#postit .postit-item:nth-child(3) {
+    background-color: #eded89;
+}
+
+#postit .postit-item:nth-child(4) {
+    background-color: #f9a99f;
+}
+
+#postit .postit-item:nth-child(5) {
+    background-color: #a9f9a9;
+}
+
+/* Étape 5 */
+.tableStyle {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #2e7d32; /* Couleur verte */
+}
+
+caption, thead {
+    background-color: #2e7d32; /* Couleur verte */
+    color: white;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+thead th {
+    padding: 10px;
+}
+
+tbody td, tfoot td {
+    padding: 10px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ddffe2; /* Couleur de fond gris clair */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9eeee; /* Couleur de fond gris clair */
+}
+
+tfoot tr {
+    background-color: #2e7d32; /* Couleur verte */
+    color: white;
+}
+
+/* Étape 6 */
+.box {
+    width: 60%;
+    margin: 50px auto 50px auto;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 2px solid #2e7d32; /* Couleur verte */
+    border-radius: 8px;
+}
+
+fieldset {
+    border: 1px solid #2e7d32; /* Couleur verte */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+fieldset legend {
+    padding: 5px 10px;
+    background-color: #2e7d32; /* Couleur verte */
+    color: white;
+    border-radius: 8px;
+}
+
+.questions {
+    margin: 10px 0;
+    list-style: none;
+}
+
+label, input {
+    display: inline-block;
+    width: 30%;
+}
+label {
+    font-weight: bold;
+}
+
+.questions label, .questions input {
+    font-weight: inherit;
+    display: initial;
+    width: inherit;
+}
+
+input[type="text"], input[type="email"], input[type="date"], select, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top : 10px;
+    border: 1px solid #2e7d32; /* Couleur verte */
+    border-radius: 8px;
+}
+
+textarea {
+    height: 300px;
+    width: 90%;
+}
+
+button, input[type="button"] {
+    background-color: #2e7d32; /* Couleur verte */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+}
+
+button:hover, input[type="button"]:hover {
+    background-color: #4CAF50; /* Couleur verte plus foncée */
+}
+
+.quiz {
+    display: none;
+}
+
+.chat-container {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .chat-header {
+    background-color: #0e7013;
+    color: #ebe6e6;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .chat-box {
+    height: 150px;
+    overflow-y: scroll;
+    padding: 10px;
+    
+  }
+
+  .user-message, .bot-message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+  }
+
+  .user-message {
+    background-color: #144404;
+    color: #fff;
+    align-self: flex-end;
+
+  }
+
+  .bot-message {
+    background-color: #f0f0f0;
+    color: #333;
+    align-self: flex-start;
+  
+    
+  }
+
+  .input-container {
+    display: flex;
+    padding: 10px;
+  }
+
+  #user-input {
+    flex: 1;
+    padding: 10px;
+    margin:10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color : green;
+  }
+/* Étape 8 */
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header img {
+        height: 10%;
+        width: 20%;
+    }
+
+    section {
+        margin: 10px;
+    }
+
+    section h1 {
+        font-size: 200%;
+    }
+
+    .box {
+        width: 80%;
+    }
+
+    .questions label, .questions input {
+        display: block;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    header img {
+        height: 5%;
+        width: 10%;
+    }
+
+    section h1 {
+        font-size: 150%;
+    }
+
+    .box {
+        width: 90%;
+    }
+}
+
